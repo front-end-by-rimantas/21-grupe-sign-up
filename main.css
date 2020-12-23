@@ -1,0 +1,23 @@
+body {
+
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: yellow;
+}
+    .left-column {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        background-color: red;
+    }
+    .right-column {
+        display: inline-block;
+        width: 60%;
+        float: left;
+        background-color: blue;
+    }
