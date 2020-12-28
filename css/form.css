@@ -1,0 +1,26 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form-row:last-of-type {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    width: 100%;
+}
+input {
+    display: inline-block;
+    width: 100%;
+}
+.form-row > span {
+    display: inline-block;
+}
+.form-row > a {
+    display: inline-block;
+}

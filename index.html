@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./main.css">
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- components -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -24,23 +29,22 @@
             <form>
                 <div class="form-row">
                     <label for="">Name</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
                 <div class="form-row">
                     <label for="">Email</label>
-                    <input type="text">
+                    <input type="email" required>
                 </div>
                 <div class="form-row">
                     <label for="">Password</label>
-                    <input type="text">
+                    <input type="password" required>
                 </div>
                 <div class="form-row">
                     <label for="">Repeat password</label>
-                    <input type="text">
+                    <input type="password" required>
                 </div>
                 <div class="form-row">
-                    <!-- <button class="btn" type="submit">Get started</button> -->
-                    <div class="btn">Get started</div>
+                    <button class="btn" type="submit">Get started</button>
                     <span>or</span>
                     <a href="#">Sign in</a>
                 </div>
