@@ -25,7 +25,14 @@ input {
 }
 .form-row > span {
     display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 18px;
 }
 .form-row > a {
     display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 18px;
 }
